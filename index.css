@@ -1,0 +1,712 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+
+
+}
+
+header {
+    box-shadow: 0px 4px 15px 1px rgba(0, 0, 0, 0.34);
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    background-color: white;
+}
+
+
+.header-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: "Inter", sans-serif;
+    margin: 0px 0 100px 0;
+    box-shadow: 0px 4px 15px 1px rgba(0, 0, 0, 0.34);
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    padding: 12px 0;
+
+}
+
+.header-section ul {
+    display: flex;
+    align-items: flex-start;
+}
+
+.header-section ul li {
+    list-style: none;
+    margin: 0 42px;
+}
+
+.logo {
+    width: 42px;
+    height: 42px;
+}
+
+.buttons .signup {
+    padding: 14px 27px;
+    border-radius: 36px;
+    background: #E94339;
+    color: white;
+    margin: 0 0 0 30px;
+    font-weight: 600;
+    border: none;
+    text-decoration: none;
+
+}
+
+
+span {
+    font-size: 16px;
+    line-height: 28px;
+    font-style: normal
+}
+
+.buttons .Login {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    font-size: 16px;
+    font-style: normal
+}
+
+.vector {
+    width: 8px;
+    height: 4px;
+    margin: 0 0 3px 5px;
+}
+
+/* main section styling  */
+
+.main-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.image-hero {
+    background-image: url("./Images.png");
+    border-radius: 36px;
+    background-color: #F2EBDA;
+    background-repeat: no-repeat;
+    width: 500px;
+    height: 442px;
+    box-shadow: inset 0px 0px 89px 4px rgba(0, 0, 0, 0.49);
+    animation: myAnim 15s cubic-bezier(0.32, 0, 0.67, 0) 0s infinite normal forwards;
+}
+
+.content h1 {
+    font-weight: 700;
+    font-size: 61px;
+    font-family: "Inter", sans-serif;
+
+}
+
+.content p {
+    font-size: 18px;
+    color: #191720;
+    letter-spacing: -0.18px;
+    font-family: "Inter", sans-serif;
+    margin: 15px 0;
+}
+
+.search-bar input {
+    width: 457px;
+    height: 57px;
+    border-radius: 56px;
+    color: #AFAFAF;
+    background: #F6F6F6;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 24px;
+    margin: 27px 0;
+    font-family: "Inter", sans-serif;
+}
+
+.search-bar {
+    position: relative;
+}
+
+.search-bar button {
+    position: absolute;
+    left: 328px;
+    top: 5px;
+    padding: 18px 27px;
+    border-radius: 36px;
+    background: #E94339;
+    color: white;
+    font-weight: 600;
+    border: none;
+    margin: 24px 0;
+    font-family: "Inter", sans-serif;
+
+}
+
+/* installation buttons style */
+.app-buttons {
+    display: flex;
+}
+
+.app-buttons button {
+    font-family: "Red Hat Display", sans-serif;
+    display: flex;
+    width: 186.847px;
+    height: 68px;
+    align-items: center;
+    margin: 15px 30px 0 0;
+    border-radius: 11px;
+    border: none;
+
+
+}
+
+.app-buttons .apple {
+    width: 36px;
+    height: 46px;
+    margin: 0 0px 0 5px;
+}
+
+span {
+    text-align: left;
+}
+
+.order-text {
+    margin: 160px 0 0 0;
+}
+
+.order-text h1 {
+    color: #191720;
+    text-align: center;
+    font-family: Inter;
+    font-size: 46px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.order-text span {
+    color: #FF5331;
+    font-family: Inter;
+    font-size: 46px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.order-text p {
+    color: #191720;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    text-align: center;
+    margin: 17px 0 0 0;
+}
+
+/* Cart section starrt here */
+
+.cart-section {
+    display: flex;
+    justify-content: space-around;
+    margin: 100px 0 0 90px;
+}
+
+.cart-section p {
+    margin: 13px 0 0 11px;
+    color: #191720;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.cart1 {
+    background-color: #FAFAFA;
+    padding: 40px;
+    border-radius: 17px;
+}
+
+.cart1 img {
+    background-color: white;
+    padding: 16px;
+    border-radius: 60px;
+}
+
+.cart1 img:hover {
+    scale: 1.1;
+    box-shadow: 0px 0px 86px -13px rgba(0, 0, 0, 0.73);
+    cursor: pointer;
+}
+
+.cart1:hover {
+    box-shadow: 0px 0px 86px -13px rgba(0, 0, 0, 0.73);
+}
+
+.cart2 .deals {
+    color: #FF5331;
+    font-family: Inter;
+    font-size: 25.8px;
+    font-style: normal;
+    font-weight: 600;
+
+}
+
+.cart2 .free-delivery {
+    color: #009B00;
+    font-family: Inter;
+    font-size: 25.8px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.cart2 {
+    position: relative;
+}
+
+.cart2 img {
+    position: absolute;
+    right: 0;
+}
+
+/*  section 3 start here */
+
+.cart-section2 {
+    display: flex;
+    justify-content: space-around;
+    margin: 100px 90px 0 0;
+}
+
+.cart3 img {
+    margin: 0 0 10px 10px;
+}
+
+.cart3 p {
+    color: #494949;
+    font-family: Inter;
+    font-size: 23px;
+    margin: 0 0 0 10px;
+}
+
+.cart4 {
+    background-color: #FAFAFA;
+    padding: 40px;
+    border-radius: 17px;
+}
+
+.cart4 p {
+    margin: 13px 0 0 0px;
+    color: #191720;
+    text-align: center;
+    font-family: Inter;
+    font-size: 21px;
+    font-weight: 500;
+}
+
+.cart4 img {
+    background-color: white;
+    padding: 16px;
+    border-radius: 60px;
+
+}
+
+.cart4 img:hover {
+    scale: 1.1;
+    cursor: pointer;
+    box-shadow: 0px 0px 86px -13px rgba(0, 0, 0, 0.73);
+}
+
+.cart4:hover {
+    box-shadow: 0px 0px 86px -13px rgba(0, 0, 0, 0.73);
+}
+
+/* .cart3 img,p{
+    margin: 0 0 0 10px;
+} */
+
+
+/*  last cart Section starts here */
+
+.pure-section {
+    margin: 160px 0 0 0;
+}
+
+.pure-order {
+    color: #2E2C49;
+    text-align: center;
+    font-family: Inter;
+    font-size: 46px;
+    font-weight: 600;
+}
+
+.numbers {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.numbers h1 {
+    color: #FF5331;
+    text-align: center;
+    font-family: Inter;
+    font-size: 43.829px;
+    font-weight: 600;
+    margin: 50px 175px 0 0;
+
+
+}
+
+.pure-cart {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+}
+
+.pure {
+    color: #191720;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    background-color: #FAFAFA;
+    padding: 40px;
+    border-radius: 17px;
+    margin: -22px 0 0px 0;
+}
+
+.pure img {
+    background-color: white;
+    padding: 16px;
+    border-radius: 60px;
+}
+
+.pure img:hover {
+    scale: 1.1;
+    cursor: pointer;
+    box-shadow: 0px 0px 86px -13px rgba(0, 0, 0, 0.73);
+}
+
+.pure:hover {
+    box-shadow: 0px 0px 86px -13px rgba(0, 0, 0, 0.73);
+}
+
+
+/*  feedback section */
+
+
+.feedback-section {
+    margin: 160px 0 0 0;
+}
+
+.feedback-section {
+    text-align: center;
+}
+
+.feedback h1 {
+    color: #111;
+    font-family: Inter;
+    font-size: 44px;
+    font-weight: 700;
+}
+
+.feedback p {
+    color: #000;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 20px 0 30px 0;
+}
+
+.feedback2 .lorem {
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 500;
+    margin: 15px 0 20px 0;
+}
+
+.feedback2 .name {
+    color: #111;
+    text-align: center;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.feedback2 .Ceo {
+    color: #616161;
+    text-align: center;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.feedback-section img {
+    margin: 20px 0;
+}
+
+/*  */
+
+.subscribe {
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding: 103px 91px;
+    background: #FFEFEC;
+    margin: 160px 0 0 0;
+    justify-content: space-between;
+}
+
+.subscribe p {
+    color: #000;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.subscribe input {
+    color: #ABACB4;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    width: 455px;
+    height: 56px;
+    border-radius: 56px;
+    padding: 10px;
+
+}
+
+.subscribe button {
+    padding: 18px 27px;
+    border-radius: 36px;
+    background: #E94339;
+    color: white;
+    font-weight: 600;
+    border: none;
+    font-family: Inter;
+    position: absolute;
+    right: 97px;
+}
+
+.content h1 {
+    color: #000;
+    font-family: Poppins;
+    font-size: 46px;
+    font-weight: 600;
+}
+
+.content p {
+    color: #000;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/* 
+Footer section Starts here
+
+*/
+
+
+
+
+footer {
+    background-color: black;
+    padding: 100px;
+    height: 350px;
+}
+
+.footer-data {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.support {
+    justify-content: space-around;
+}
+
+.support ul li {
+    list-style: none;
+    color: #B5B2B2;
+    font-family: Inter;
+    font-size: 17.756px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.app-buttons-footer {
+
+    display: flex;
+    margin: 150px 0 0 0;
+}
+
+.app-buttons-footer .apple {
+
+    width: 40px;
+}
+
+.btn-footer-apple,
+.btn-play-footer {
+    font-family: "Red Hat Display", sans-serif;
+    align-items: center;
+    border-radius: 11px;
+    display: flex;
+    margin: 0 10px;
+    border: none;
+    width: 180.847px;
+    height: 57px;
+}
+
+.support ul {
+    line-height: 40px;
+}
+
+.support .heads {
+    font-family: Inter;
+    font-size: 17.756px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.last-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.last-section p {
+    color: white;
+}
+
+.last-section div {
+    display: flex;
+}
+
+.last-section .suahil {
+    color: #B5B2B2;
+    font-family: Inter;
+    font-size: 15.536px;
+    font-style: normal;
+    font-weight: 400;
+    margin: 100px 0 0 0;
+    align-items: center;
+}
+
+.last-section div p {
+    color: #B5B2B2;
+    text-align: right;
+    font-family: Inter;
+    font-size: 17.756px;
+    font-style: normal;
+    font-weight: 400;
+    margin: 100px 15px 0 0;
+    align-items: center;
+}
+
+.cart2 img {
+    animation: myAnim 15s cubic-bezier(0.32, 0, 0.67, 0) 0s infinite normal forwards;
+}
+
+
+/*  Input psod0 classses */
+
+.search-bar input:focus {
+    outline: none
+}
+
+.content input:focus {
+    outline: none;
+
+}
+
+.btn-play-footer:hover {
+    cursor: pointer;
+    scale: 1.1;
+    box-shadow: 1px 1px 14px -1px rgb(148, 156, 148);
+}
+
+.btn-footer-apple:hover {
+    scale: 1.1;
+    cursor: pointer;
+    box-shadow: 1px 1px 14px -1px rgb(145, 156, 145);
+}
+
+.btn-apple:hover {
+    scale: 1.1;
+    cursor: pointer;
+    box-shadow: 1px 1px 14px -1px rgb(13, 14, 13);
+}
+
+.btn-play:hover {
+    cursor: pointer;
+    scale: 1.1;
+    box-shadow: 1px 1px 14px -1px rgb(8, 8, 8);
+}
+.logo:hover{
+    scale: 1.4;
+}
+
+
+/* KeyFrames */
+
+@keyframes myAnim {
+    0% {
+        animation-timing-function: ease-out;
+        transform: scale(1);
+        transform-origin: center center;
+    }
+
+    10% {
+        animation-timing-function: ease-in;
+        transform: scale(0.91);
+    }
+
+    17% {
+        animation-timing-function: ease-out;
+        transform: scale(0.98);
+    }
+
+    33% {
+        animation-timing-function: ease-in;
+        transform: scale(0.87);
+    }
+
+    45% {
+        animation-timing-function: ease-out;
+        transform: scale(1);
+    }
+}
+
+
+@keyframes myAnim {
+
+    0%,
+    100% {
+        transform: translateX(0);
+    }
+
+    10%,
+    30%,
+    50%,
+    70% {
+        transform: translateX(-10px);
+    }
+
+    20%,
+    40%,
+    60% {
+        transform: translateX(10px);
+    }
+
+    80% {
+        transform: translateX(8px);
+    }
+
+    90% {
+        transform: translateX(-8px);
+    }
+}
